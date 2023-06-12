@@ -1,0 +1,50 @@
+.header {
+    min-height: 2vh;
+    width: 100%;
+    background-color:rgb(243, 238, 196) ;
+   
+}
+
+nav {
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav img {
+    width: 70px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+.nav-links ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+nav .fa {
+    display: none;
+}

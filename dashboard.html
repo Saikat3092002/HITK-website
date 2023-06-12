@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student DashBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header" id="das-back">
+        <nav>
+            <a href="index.html"><img src="./images/HIT_20.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="virtual.html">VIRTUAL TOUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Student DashBoard</h1>
+    </section>
+    
+
+<section class="campus">
+    <h3 style="padding: 20px;">Student Information</h3>
+    <div class="row">
+        <div class="campus-col " >
+            <img src="images/marksheet.jpg" style="border-radius: 160px;" >
+            <div class="layer">
+                <a href=""><h3>Marksheet</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/achive.jpg" style="border-radius: 200px;">
+            <a href="know.html">
+                <div class="layer">
+                   <a href=""><h3>Achivement</h3></a> 
+                </div>
+            </a>
+        </div>
+
+        <div class="course-col" style="height: 330px;width: 300px;overflow: scroll;font-size: small;">
+            <h3>NOTICES</h3>
+
+            <ul type="circle">
+                <li><a href="" target="_blank"></a></li>
+                <li>Notice for payment of Even Semester Fees (A.Y. 2022-2023)
+                    <br>to view notice-<a href="https://www.heritageit.edu/NoticePDF/792710245Not30122022.pdf"
+                        target="_blank">click here</a><br>Published on :
+                    30-12-2022
+                </li>
+                <hr>
+                <li>Semester Break Winter Recess 2022-2023 for students<br>to view notice-<a
+                        href="https://www.heritageit.edu/NoticePDF/262778743Not231222.pdf" target="_blank">click
+                        here</a><br>Published on :
+                    23-12-2022</li>
+                <hr>
+                <li>Notice reg. Inter-Semester Break<br>to view notice-<a
+                        href="https://www.heritageit.edu/NoticePDF/2036503899Not15122022.pdf" target="_blank">click
+                        here</a><br>Published on :
+                    15-12-2022</li>
+                <hr>
+                <li>Notice regarding Graduation Ceremony 2022<br>to view notice<a
+                        href="https://www.heritageit.edu/NoticePDF/1720734485GraduationCeremony2022.pdf"
+                        target="_blank">click here</a><br>Published on :
+                    07-12-2022</li>
+                <hr>
+                <li>Notice regarding B.Tech & MCA 1st sem class test time table<br>to view notice<a
+                        href="https://www.heritageit.edu/NoticePDF/1499580521ClassTest_1stSemBTechAndMCA22.pdf"
+                        target="_blank">click here</a><br>Published on :
+                    02-12-2022</li>
+                <hr>
+            </ul>
+        </div>
+        
+
+
+
+
+
+
+        <div class="campus-col">
+            <img src="images/project.jpg" style="border-radius: 160px;">
+            <div class="layer">
+                <a href=""><h3>Student Projects</h3></a> 
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/performence.jpg" style="border-radius: 160px;" >
+            <div class="layer">
+               <a href=""> <h3>Student performence</h3></a> 
+            </div>
+        </div>
+
+        <div class="course-col" style="height: 330px;width: 300px;overflow:scroll;font-size: small;">
+            <h3>EVENTS</h3>
+            <marquee behavior="scroll" direction="up" scrollamount="2">
+                <ul type="disc">
+                    <li><a href="" target="_blank"></a></li>
+                    <li>Invition to Talk on the occasion of National Mathematics Day<p style="font-weight: bold;">
+                            Event date: 22-12-2022 to 22-12-2022</p><br>published on 21-12-2022 <a href=""
+                            target="_blank">view event</a></li>
+                    <hr>
+                    <li>Invition to attend National Polution Control day <p style="font-weight: bold;">Event date:
+                            02-12-2022 to 02-12-2022</p><br>published on 01-12-2022<a href="" target="_blank">view
+                            event</a></li>
+                    <hr>
+
+                </ul>
+            </marquee>
+        </div>
+
+
+        
+        <div class="campus-col">
+            <img src="images/merit.jpg" style="border-radius: 160px;" >
+            <div class="layer">
+                <a href=""><h3>Merit List</h3></a> 
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/admission3.jpg" style="border-radius: 160px;" >
+            <div class="layer">
+                <a href=""><h3>Download Admission Letter</h3></a> 
+            </div>
+        </div>
+        <div class="course-col" style="height: 330px;width: 300px;font-size: small;overflow:scroll;">
+            <h3>ANNOUNCEMENTS</h3>
+            <marquee behavior="scroll" direction="up" scrollamount="2">
+                <ul type="circle">
+                    <li></li>
+                    <li>PhD in Nano Engineering from University of California, San Diego on 15th December 2020<p
+                            style="font-weight: bold;">published on 17-12-2020</p>
+                    </li>
+                    <hr>
+                    <li>Abhik Mitra, an anumnus of HITK, B.Tech-IT,Batch-2011 for joining Facebook as a software
+                        Engineer recently from october 2020<p style="font-weight: bold;">publishedon 15-12-2020</p>
+                    </li>
+                    <hr>
+                    <li>Chandra Mouli Pandey, a student of HITK, B.Tech-EE Batch-2017 joined as Associate Manager
+                        ,Reserve Bank Information Technology Pvt Ltd<p style="font-weight: bold;">published on
+                            15-12-2020</p>
+                    </li>
+                    <hr>
+                </ul>
+            </marquee>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <section class="footer">
+        <tr style="height:30px;">
+            <td style="color:black;text-align:left;width:300px;vertical-align:middle;">
+                <a href="Announcement.aspx"
+                    style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Announcements</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Events1.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Events</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="News.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>News</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="GrievanceCell.aspx"
+                    style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Grievance Redressal</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Notice.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Notice</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Newsletter.aspx"
+                    style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Newsletter</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Jobs.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Jobs</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Tender.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Tender</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="Feedback.aspx" style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Feedback</font>
+                </a>
+                <font style="font-family:Arial;font-size:14px;">|</font>
+                <a href="ImageGallery.aspx"
+                    style="font-family:Arial;font-size:14px;text-decoration:none;color:black;">
+                    <font>Gallery</font>
+                </a>
+
+            </td>
+        </tr>
+        <div class="icons">
+            <a href="https://www.facebook.com/Heritageit/"><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/school/heritage-institute-of-technology/"><i
+                    class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@TheHeritageGroupofInstitutions"><i class="fa fa-youtube"></i></a>
+
+        </div>
+        <a href="" class="footer-link">
+            <p>made with <i class="fa fa-heart-o"></i> by CSE-C</p>
+        </a>
+        <tr style="height:30px;" align="center">
+            <td>
+                <font style="font-family:Arial;font-size:10px;color:black;">Copyright © 2022, Heritage Institute of
+                    Technology, All right reserved.</font>
+            </td>
+        </tr>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    </body>
+</html>
